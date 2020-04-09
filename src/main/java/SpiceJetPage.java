@@ -16,19 +16,12 @@ public class SpiceJetPage extends BasePage {
     private By returnDateCalendar = By.cssSelector("div #ctl00_mainContent_view_date2");
     private By passengerDropdown = By.cssSelector("#divpaxinfo");
     private By currencyDropdown = By.cssSelector("#ctl00_mainContent_DropDownListCurrency");
-    //public By adultDropdown = By.cssSelector("select#ctl00_mainContent_ddl_Adult");
-    //public By childDropdown = By.cssSelector("select#ctl00_mainContent_ddl_Child");
-    //public By infantDropdown = By.cssSelector("select#ctl00_mainContent_ddl_Infant");
     public By currencyOptionsSelector =  By.cssSelector("#ctl00_mainContent_DropDownListCurrency option");
-    //public Select selectAdultDropdown = new Select(driver.findElement(adultDropdown));
-    //public Select selectChildDropdown = new Select(driver.findElement(childDropdown));
-    //public Select selectInfantDropdown = new Select(driver.findElement(infantDropdown));
     public By departDate =  By.cssSelector("span#view_fulldate_id_1");
     public By arrivalDate =  By.cssSelector("span#view_fulldate_id_2");
 
     String originSelector = "#glsctl00_mainContent_ddl_originStation1_CTNR #dropdownGroup1 li a";
     String destinationSelector = "#glsctl00_mainContent_ddl_destinationStation1_CTNR #dropdownGroup1 li a";
-
 
     public void ClickOriginDropdown() {
         driver.findElement(originDropdown).click();
