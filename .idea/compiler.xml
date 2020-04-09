@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kle-framework" />
+        <module name="kle-tests" />
+        <module name="kle-page-objects" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ExcelDataDriven" target="11" />
+      <module name="kle-framework" target="11" />
+      <module name="kle-page-objects" target="11" />
+      <module name="kle-tests" target="11" />
+      <module name="LoggingDemo" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

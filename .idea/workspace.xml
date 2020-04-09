@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f67dd2a-dbe1-4650-a062-8cd20e592034" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zy5CUfkMjO4EqFxVSURWEaG6KR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ExcelDataDriven" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="selenium" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.QaClickAcademyTest.QaClickAcademyTest">
+    <configuration name="DataDriven" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ExcelDataDriven" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataDriven" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataDriven.RunExcelData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataDrivenExcel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DataDrivenExcel" />
+      <option name="MAIN_CLASS_NAME" value="DataDrivenExcel.DataDriven" />
+      <option name="METHOD_NAME" value="RunExcelData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataDriven.RunExcelData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="LoggingDemo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DataDriven" />
+      <option name="METHOD_NAME" value="RunExcelData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QaClickAcademyTest.QaClickAcademyTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practise" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="QaClickAcademyTest" />
+      <option name="METHOD_NAME" value="QaClickAcademyTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpiceJetTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Practise" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpiceJetTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.QaClickAcademyTest.QaClickAcademyTest" />
+        <item itemvalue="TestNG.SpiceJetTest" />
+        <item itemvalue="TestNG.DataDriven" />
+        <item itemvalue="TestNG.DataDriven.RunExcelData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f67dd2a-dbe1-4650-a062-8cd20e592034" name="Default Changelist" comment="" />
+      <created>1585798365188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585798365188</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#Project_Structure" timestamp="1586278320260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Project_Structure/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586278320260" />
+    <state x="477" y="61" key="#SpiceJetTest" timestamp="1585887394679">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="61" key="#SpiceJetTest/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585887394679" />
+    <state x="499" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1586355456801">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="168" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586355456801" />
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1585923817822">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585923817822" />
+    <state x="522" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586278394777">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="522" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586278394777" />
+    <state x="564" y="273" width="408" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1586278648035">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="564" y="273" width="408" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586278648035" />
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585842969261">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="381" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585842969261" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1586351384368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586351384368" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1586369621666">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586369621666" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1586369621665">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586369621665" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1586369621665">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586369621665" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1586369621665">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586369621665" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1586369621666">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586369621666" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1586369621666">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586369621666" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1586369621666">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586369621666" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1586369621666">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586369621666" />
+    <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1586278813260">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586278813260" />
+    <state x="261" y="0" key="SettingsEditor" timestamp="1585799674433">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="0" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585799674433" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1586372316741">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586372316741" />
+    <state x="540" y="116" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585842311167">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="116" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585842311167" />
+    <state x="209" y="68" key="new project wizard" timestamp="1586313951321">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="68" key="new project wizard/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1586313951321" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1585852072340">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1585852072340" />
+  </component>
+</project>
