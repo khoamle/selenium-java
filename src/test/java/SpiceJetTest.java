@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class SpiceJetTest extends BaseTest {
 
     @Test
-    public void TravelTest() {
+    public void SelectFlightTest() {
         SpiceJetPage spiceJetPage = new SpiceJetPage(getDriver());
         getSpiceJetURL();
 
@@ -48,5 +48,8 @@ public class SpiceJetTest extends BaseTest {
         spiceJetPage.ClickCurrencyDropdown();
         spiceJetPage.SelectRandomCurrency();
         spiceJetPage.ClickCurrencyDropdown();
+        SelectFlightPage selectFlightPage = spiceJetPage.ClickSearchButton();
+        Assert.assertEquals(selectFlightPage.IsOutboundTitleTextDisplayed(), "CHOOSE A");
+        Assert.assertEquals(selectFlightPage.IsDepartureFlightTextDisplayed(), "DEPARTURE FLIGHT");
     }
 }

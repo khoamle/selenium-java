@@ -1,4 +1,5 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import java.util.List;
@@ -19,6 +20,7 @@ public class SpiceJetPage extends BasePage {
     public By currencyOptionsSelector =  By.cssSelector("#ctl00_mainContent_DropDownListCurrency option");
     public By departDate =  By.cssSelector("span#view_fulldate_id_1");
     public By arrivalDate =  By.cssSelector("span#view_fulldate_id_2");
+    public By searchButton = By.cssSelector("input#ctl00_mainContent_btn_FindFlights");
 
     String originSelector = "#glsctl00_mainContent_ddl_originStation1_CTNR #dropdownGroup1 li a";
     String destinationSelector = "#glsctl00_mainContent_ddl_destinationStation1_CTNR #dropdownGroup1 li a";
@@ -41,6 +43,13 @@ public class SpiceJetPage extends BasePage {
 
     public void ClickCurrencyDropdown() {
         driver.findElement(currencyDropdown).click();
+    }
+
+    public SelectFlightPage ClickSearchButton() {
+        //JavascriptExecutor js = (JavascriptExecutor)driver;
+        //js.executeScript("arguments[0].click();", searchButton);
+        this.driver.findElement(searchButton).click();
+        return new SelectFlightPage(this.driver);
     }
 
     public void SelectAirport (WebDriver driver, String airportCity, String airportSelector) {
