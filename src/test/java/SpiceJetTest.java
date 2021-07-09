@@ -21,15 +21,15 @@ public class SpiceJetTest extends BaseTest {
 
         //Selects the departure and return dates (Day, Month, Year). Month/Year selection up to 12 months limit
         spiceJetPage.SelectCalendarYear(getDriver(), "2021");
-        spiceJetPage.SelectCalendarMonth(getDriver(), "January");
+        spiceJetPage.SelectCalendarMonth(getDriver(), "July");
         spiceJetPage.SelectCalendarDay(getDriver(), "20");
-        Assert.assertTrue(spiceJetPage.IsDepartDateDisplayed("Jan 20 2021"));
+        Assert.assertTrue(spiceJetPage.IsDepartDateDisplayed("Jul 20 2021"));
 
         spiceJetPage.ClickReturnDateCalendar();
         spiceJetPage.SelectCalendarYear(getDriver(), "2021");
-        spiceJetPage.SelectCalendarMonth(getDriver(), "February");
+        spiceJetPage.SelectCalendarMonth(getDriver(), "October");
         spiceJetPage.SelectCalendarDay(getDriver(), "10");
-        Assert.assertTrue(spiceJetPage.IsArrivalDateDisplayed("Feb 10 2021"));
+        Assert.assertTrue(spiceJetPage.IsArrivalDateDisplayed("Oct 10 2021"));
 
         //Selects the number of adults, children, and infants
         By adultDropdown = By.cssSelector("select#ctl00_mainContent_ddl_Adult");

@@ -7,22 +7,21 @@ public class LoginPage extends BasePage {
         super(driver);
     }
 
-    public By emailAddressSelector = By.cssSelector("#user_email");
-    public By passwordSelector = By.cssSelector("#user_password");
-    public By loginButton = By.cssSelector("#new_user .form-group.text-center input");
+    public By emailField = By.cssSelector("#loginfrm > div.wow.fadeIn > div:nth-child(1) > label > input[type=email]");
+    public By passwordField = By.cssSelector("#loginfrm > div.wow.fadeIn > div:nth-child(2) > label > input[type=password]");
+    public By loginButton = By.cssSelector("#loginfrm > button");
+    public By header = By.cssSelector(".d-flex h3");
 
-    public void EnterEmailAddressField (String emailAddress) {
-        this.driver.findElement(emailAddressSelector).sendKeys(emailAddress);
-    }
 
-    public void EnterPasswordField (String password) {
-        this.driver.findElement(passwordSelector).sendKeys(password);
-    }
-
-    public CoursesPage ClickLogin() {
+    public AccountPage EnterLoginInfo (String email, String password) {
+        waitForElementToAppear(emailField);
+        this.driver.findElement(emailField).sendKeys(email);
+        this.driver.findElement(passwordField).sendKeys(password);
         this.driver.findElement(loginButton).click();
-        return new CoursesPage(this.driver);
+        return new AccountPage(this.driver);
     }
 
-
+    public boolean IsURLDisplayed(String url)   {
+        return this.driver.getCurrentUrl().contains(url);
+    }
 }

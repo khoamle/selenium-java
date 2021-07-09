@@ -17,9 +17,11 @@ public class BaseTest {
     public void getSpiceJetURL() {
         driver.get("https://www.spicejet.com");
     }
-
     public void getQaClickAcademyURL() {
         driver.get("http://www.qaclickacademy.com/");
+    }
+    public void getPhpTravelsURL() {
+        driver.get("https://www.phptravels.net/");
     }
     @AfterSuite
     public void TearDown() {

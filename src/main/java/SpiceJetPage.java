@@ -1,7 +1,7 @@
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -46,8 +46,6 @@ public class SpiceJetPage extends BasePage {
     }
 
     public SelectFlightPage ClickSearchButton() {
-        //JavascriptExecutor js = (JavascriptExecutor)driver;
-        //js.executeScript("arguments[0].click();", searchButton);
         this.driver.findElement(searchButton).click();
         return new SelectFlightPage(this.driver);
     }

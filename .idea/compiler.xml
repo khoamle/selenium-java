@@ -11,12 +11,5 @@
         <module name="kle-page-objects" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="ExcelDataDriven" target="11" />
-      <module name="kle-framework" target="11" />
-      <module name="kle-page-objects" target="11" />
-      <module name="kle-tests" target="11" />
-      <module name="LoggingDemo" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>
