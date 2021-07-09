@@ -3,7 +3,7 @@
 Websites used for selenium automation practice
 
 * [SpiceJet](https://www.spicejet.com/ "SpiceJet Travel website")
-* [QAClickAcademy](http://www.qaclickacademy.com/ "QA Click Academy website")
+* [PhpTravels](https://www.phptravels.net/ "PhpTravels website")
 
 ## Technologies
 

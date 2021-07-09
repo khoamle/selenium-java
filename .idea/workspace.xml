@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f67dd2a-dbe1-4650-a062-8cd20e592034" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/AccountPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ConfirmationPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InvoicePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PhpTravelsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ToursPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PhpTravelsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CoursesPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SpiceJetPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SpiceJetPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/QaClickAcademyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SpiceJetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpiceJetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Practise.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/Practise.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/QaClickAcademyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/QaClickAcademyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SpiceJetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SpiceJetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
