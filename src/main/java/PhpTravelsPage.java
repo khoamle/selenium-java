@@ -18,6 +18,7 @@ public class PhpTravelsPage extends BasePage {
     public By tours = By.cssSelector("body > div.body-inner > div.main-wrapper.scrollspy-action > div:nth-child(6) > div > div.row.equal-height.cols-2.cols-md-2.cols-lg-4.gap-10.gap-md-20.gap-xl-30 > div > figure");
 
     public LoginPage ClickLogin() {
+        waitForElementToAppear(myAccount);
         this.driver.findElement(myAccount).click();
         this.driver.findElement(login).click();
         return new LoginPage(this.driver);
@@ -36,14 +37,11 @@ public class PhpTravelsPage extends BasePage {
 //    }
 
     public ToursPage SelectTour() {
+        waitForElementToAppear(myAccount);
         List<WebElement> toursOptions = driver.findElements(tours);
         int size = toursOptions.size();
         int randomTour = ThreadLocalRandom.current().nextInt(1, size);
         toursOptions.get(randomTour).click();
         return new ToursPage(this.driver);
-    }
-
-    public boolean IsURLDisplayed(String url)   {
-        return this.driver.getCurrentUrl().contains(url);
     }
 }

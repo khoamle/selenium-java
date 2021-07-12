@@ -8,18 +8,14 @@ public class PhpTravelsTest extends BaseTest {
         PhpTravelsPage phpTravelsPage = new PhpTravelsPage(getDriver());
         getPhpTravelsURL();
 
-        phpTravelsPage.waitForElementToAppear(phpTravelsPage.myAccount);
         LoginPage loginPage = phpTravelsPage.ClickLogin();
         loginPage.waitForElementToAppear(loginPage.header);
         Assert.assertEquals(loginPage.IsURLDisplayed("login"), true);
 
-        loginPage.waitForElementToAppear(loginPage.loginButton);
         AccountPage accountPage = loginPage.EnterLoginInfo("user@phptravels.com", "demouser");
+        Assert.assertTrue(accountPage.IsHeaderDisplayed("Demo User"));
 
         accountPage.ClickHomeButton();
-
-        phpTravelsPage.waitForElementToAppear(phpTravelsPage.myAccount);
-
         ToursPage toursPage = phpTravelsPage.SelectTour();
         toursPage.FutureBookingDate();
         toursPage.SelectRandomNumberOfAdults();
@@ -27,10 +23,12 @@ public class PhpTravelsTest extends BaseTest {
         toursPage.SelectRandomNumberOfInfants();
 
         ConfirmationPage confirmationPage = toursPage.BookNow();
-        confirmationPage.waitForElementToAppear(confirmationPage.h4header);
+        Assert.assertTrue(confirmationPage.IsHeaderDisplayed("Please read"));
+
         confirmationPage.ScrollIntoView();
         InvoicePage invoicePage = confirmationPage.ConfirmBooking();
-        invoicePage.waitForElementToAppear(invoicePage.h4Header);
+        Assert.assertTrue(invoicePage.IsHeaderDisplayed("Unpaid"));
+
         invoicePage.ClickPayOnArrival();
     }
 }

@@ -22,4 +22,9 @@ public class ConfirmationPage extends BasePage {
         this.driver.findElement(confirmButton).click();
         return new InvoicePage(this.driver);
     }
+
+    public boolean IsHeaderDisplayed(String text) {
+        waitForElementToAppear(h4header);
+        return this.driver.findElement(h4header).getText().contains(text);
+    }
 }

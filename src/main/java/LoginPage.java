@@ -12,9 +12,8 @@ public class LoginPage extends BasePage {
     public By loginButton = By.cssSelector("#loginfrm > button");
     public By header = By.cssSelector(".d-flex h3");
 
-
     public AccountPage EnterLoginInfo (String email, String password) {
-        waitForElementToAppear(emailField);
+        waitForElementToAppear(loginButton);
         this.driver.findElement(emailField).sendKeys(email);
         this.driver.findElement(passwordField).sendKeys(password);
         this.driver.findElement(loginButton).click();

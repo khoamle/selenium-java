@@ -45,7 +45,7 @@ public class ToursPage extends BasePage {
     public void SelectRandomNumberOfChildren() {
         List<WebElement> childrenOptions = driver.findElements(children);
         int size = childrenOptions.size();
-        int randomChildren = ThreadLocalRandom.current().nextInt(1, size);
+        int randomChildren = ThreadLocalRandom.current().nextInt(0, size);
         childrenOptions.get(randomChildren).click();
     }
 
@@ -59,7 +59,7 @@ public class ToursPage extends BasePage {
     public ConfirmationPage BookNow() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         WebElement element = this.driver.findElement(bookNowButton);
-        js.executeScript("arguments[0].scrollIntoView();", element);
+        js.executeScript("arguments[0].scrollIntoView(true);", element);
         waitForElementToAppear(bookNowButton);
         this.driver.findElement(bookNowButton).click();
         return new ConfirmationPage(this.driver);
