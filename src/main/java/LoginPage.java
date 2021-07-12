@@ -21,6 +21,7 @@ public class LoginPage extends BasePage {
     }
 
     public boolean IsURLDisplayed(String url)   {
+        waitForElementToAppear(header);
         return this.driver.getCurrentUrl().contains(url);
     }
 }

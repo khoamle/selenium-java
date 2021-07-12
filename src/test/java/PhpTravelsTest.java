@@ -9,7 +9,6 @@ public class PhpTravelsTest extends BaseTest {
         getPhpTravelsURL();
 
         LoginPage loginPage = phpTravelsPage.ClickLogin();
-        loginPage.waitForElementToAppear(loginPage.header);
         Assert.assertEquals(loginPage.IsURLDisplayed("login"), true);
 
         AccountPage accountPage = loginPage.EnterLoginInfo("user@phptravels.com", "demouser");
